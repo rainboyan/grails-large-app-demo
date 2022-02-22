@@ -20,6 +20,12 @@ java -jar grails-large-app-demo-0.1.war
 
 ### Grails run app with spring Beans and Configs, use `@ComponentScan`
 
+Environment:
+
+* Mac OS 11.6.4, M1
+* Grails 5.1.2
+* Java 11.0.14-zulu
+
 |Bean & Config   |    Default(Not Used) (  Production      )     |  @ComponentScan  (  Production  )   |
 |----------------|-----------------------------------------------|-------------------------------------|
 |10   + 10       |    2715ms, 719.5M    (  6595ms,  659.2M )     |  2791ms,  421.5M (  6783ms, 657.3M )|
